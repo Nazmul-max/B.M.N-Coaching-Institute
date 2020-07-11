@@ -1,0 +1,72 @@
+.fixed-top{
+    background-color: #D7BA7D;
+    opacity: 90%;
+}
+.bg-color{
+    background-color:#D7BA7D;
+}
+.button{
+    border: none;
+    border-radius: 42px;
+}
+.button:hover{
+    color: black;
+    background-color: lightgrey;
+    transition: all 0.3s ease-out;
+    color: black;
+}
+.button a:hover{
+    transition: all 0.3s ;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: chocolate;
+}
+.row .card{
+    border:none;
+    box-shadow: 3px 3px 8px lightgray;
+}
+.row .card:hover{
+    box-shadow: 7px 7px 15px lightgray;
+    transition: all 0.2s ease;
+}
+.row .col-md-6 img{
+    top: px;
+    border-radius: 10px;
+}
+.container .add-border{
+    border-top: 3px solid lightgrey;
+}
+.row .text-center .t-icon{
+    border-radius: 50%;
+}
+.bg-img-1{
+    background-image: url(images/img-1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg-img-2{
+    background-image: url(images/img-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: -200px;
+}
+.font-style{
+    font-weight: bold;
+}
+.row .col-md-4 ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+.row .col-md-4 ul li a{
+    color: white;  
+}
+.f-icon{
+    width: 30px;
+    border-radius: 50px;
+}
